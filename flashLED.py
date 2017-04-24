@@ -11,4 +11,6 @@ while wpi.digitalRead(27) == 0:
 	wpi.digitalWrite(17,1)
 	sleep(0.5)
 print ("Button pressed to end the example")
+wpi.digitalWrite(17,0)
+
 	
